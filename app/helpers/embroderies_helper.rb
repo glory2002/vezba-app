@@ -1,0 +1,2 @@
+module EmbroderiesHelper
+end
