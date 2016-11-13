@@ -28,8 +28,8 @@ regions = [
 
 ]
 
-regions.each do |title, image, desctiption|
-  Region.create( title: title, image: image, desctiption: desctiption )
+regions.each do |name, image, description|
+  Region.create( name: name, image: image, description: description )
 end
 
 
@@ -76,10 +76,10 @@ region_embroderies["Видински"] = [
 ]
 
 
-region_embroderies.each do | region_title, embrodery |
-  region = Region.find_by(title: region_title )
+region_embroderies.each do | region_name, embrodery |
+  region = Region.find_by(name: region_name )
 
   regions.each do | title, image |
-    Embordery.create(title: title, region_id: region.id, image: image)
+    Embordery.create(name: name, region_id: region.id, image: image)
   end
 end

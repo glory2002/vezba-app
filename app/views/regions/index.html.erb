@@ -1,2 +1,9 @@
 <h1>Regions#index</h1>
-<p>Find me in app/views/regions/index.html.erb</p>
+<div class = "row">
+  <% @regions.each do |region| %>
+    <div class="col-md-4">
+      <%= link_to (image_tag region.image) %>
+      <p><%= link_to region.name %></p>
+    </div>
+  <% end %>
+</div>
