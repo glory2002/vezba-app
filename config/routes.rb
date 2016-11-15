@@ -1,13 +1,16 @@
 Rails.application.routes.draw do
   root 'regions#index'
 
-  get 'embroderies/index'
+  # get 'embroderies/index'
+  #
+  # get 'embroderies/show'
+  #
+  # get 'regions/index'
+  #
+  # get 'regions/show'
 
-  get 'embroderies/show'
-
-  get 'regions/index'
-
-  get 'regions/show'
+  resources :regions
+  resources :embroderies
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

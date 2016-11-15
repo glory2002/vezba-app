@@ -1,2 +1,18 @@
 <h1>Regions#show</h1>
-<p>Find me in app/views/regions/show.html.erb</p>
+
+<div class="row">
+  <div class="col-xs-4"><%= image_tag @region.image %></div>
+  <div class="col-xs-6 col-sm-3">
+    <h2><%= @region.name %></h2>
+    <br>
+    <div><%= @region.description %></div>
+    <br>
+    <p><%= link_to "add a new embrodery", new_embrodery_path %></p>
+  </div>
+</div>
+
+  <% @embroderies.each do |embrodery| %>
+    <h3><%= embrodery.name %></h4>
+
+    <p><%= embrodery.image %></p>
+  <% end %>

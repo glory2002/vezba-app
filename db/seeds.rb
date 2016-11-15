@@ -14,16 +14,16 @@ regions = [
   ["Ловешки","2.jpg",
   %{"Ловешките шевици..."}],
 
-  ["Самоковски","3.jpg",
+  ["Самоковски","1.jpg",
   %{"Самоковските шевици..."}],
 
-  ["Капански","4.jpg",
+  ["Капански","2.jpg",
   %{"Капанските шевици..."}],
 
-  ["Видински","4.jpg",
+  ["Видински","1.jpg",
   %{"Видинските шевици..."}],
 
-  ["Русенски","4.jpg",
+  ["Русенски","2.jpg",
   %{"Видинските шевици..."}]
 
 ]
@@ -36,8 +36,8 @@ end
 region_embroderies = {}
 
 region_embroderies["Шопски"] = [
-  ["Ръкав на женска риза", "1.1.jpg"],
-  ["Пола", "2.1.jpg"],
+  ["Ръкав на женска риза", "1.jpg"],
+  ["Пола", "2.jpg"],
   ["Ръкав на мъжка риза", "3.1.jpg"],
   ["Деколте", "4.1.jpg"],
   ["Престилка", "5.jpg"]
@@ -60,11 +60,11 @@ region_embroderies["Самоковски"] = [
 ]
 
 region_embroderies["Капански"] = [
-  ["Ръкав на женска риза", "16.jpg"],
-  ["Пола", "17.jpg"],
-  ["Ръкав на мъжка риза", "18.jpg"],
-  ["Деколте", "19.jpg"],
-  ["Престилка", "20.jpg"]
+  ["Ръкав на женска риза", "1.jpg"],
+  ["Пола", "2.jpg"],
+  ["Ръкав на мъжка риза", "1.jpg"],
+  ["Деколте", "2.jpg"],
+  ["Престилка", "2.jpg"]
 ]
 
 region_embroderies["Видински"] = [
@@ -75,11 +75,19 @@ region_embroderies["Видински"] = [
   ["Престилка", "20.jpg"]
 ]
 
+region_embroderies["Русенски"] = [
+  ["Ръкав на женска риза", "16.jpg"],
+  ["Пола", "17.jpg"],
+  ["Ръкав на мъжка риза", "18.jpg"],
+  ["Деколте", "19.jpg"],
+  ["Престилка", "20.jpg"]
+]
 
-region_embroderies.each do | region_name, embrodery |
-  region = Region.find_by(name: region_name )
 
-  regions.each do | title, image |
-    Embordery.create(name: name, region_id: region.id, image: image)
+region_embroderies.each do | region_name, embroderies |
+  region = Region.find_by(name: region_name)
+
+  embroderies.each do | name, image |
+    Embrodery.create(name: name, region_id: region.id, image: image)
   end
 end
