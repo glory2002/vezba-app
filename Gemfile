@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'devise'
 
 gem 'carrierwave'
+gem "mini_magick"
 
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'

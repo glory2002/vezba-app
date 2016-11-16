@@ -29,7 +29,7 @@ regions = [
 ]
 
 regions.each do |name, image, description|
-  Region.create( name: name, image: image, description: description )
+  Region.create( name: name, image: File.open(File.join(Rails.root.join("test/fixtures/images/#{image}"))), description: description )
 end
 
 
@@ -38,25 +38,25 @@ region_embroderies = {}
 region_embroderies["Шопски"] = [
   ["Ръкав на женска риза", "1.jpg"],
   ["Пола", "2.jpg"],
-  ["Ръкав на мъжка риза", "3.1.jpg"],
-  ["Деколте", "4.1.jpg"],
-  ["Престилка", "5.jpg"]
+  ["Ръкав на мъжка риза", "1.jpg"],
+  ["Деколте", "1.jpg"],
+  ["Престилка", "2.jpg"]
 ]
 
 region_embroderies["Ловешки"] = [
-  ["Ръкав на женска риза", "6.jpg"],
-  ["Пола", "7.jpg"],
-  ["Ръкав на мъжка риза", "8.jpg"],
-  ["Деколте", "9.jpg"],
-  ["Престилка", "10.jpg"]
+  ["Ръкав на женска риза", "1.jpg"],
+  ["Пола", "1.jpg"],
+  ["Ръкав на мъжка риза", "1.jpg"],
+  ["Деколте", "1.jpg"],
+  ["Престилка", "2.jpg"]
 ]
 
 region_embroderies["Самоковски"] = [
-  ["Ръкав на женска риза", "11.jpg"],
-  ["Пола", "12.jpg"],
-  ["Ръкав на мъжка риза", "13.jpg"],
-  ["Деколте", "14.jpg"],
-  ["Престилка", "15.jpg"]
+  ["Ръкав на женска риза", "1.jpg"],
+  ["Пола", "1.jpg"],
+  ["Ръкав на мъжка риза", "1.jpg"],
+  ["Деколте", "1.jpg"],
+  ["Престилка", "2.jpg"]
 ]
 
 region_embroderies["Капански"] = [
@@ -68,19 +68,19 @@ region_embroderies["Капански"] = [
 ]
 
 region_embroderies["Видински"] = [
-  ["Ръкав на женска риза", "16.jpg"],
-  ["Пола", "17.jpg"],
-  ["Ръкав на мъжка риза", "18.jpg"],
-  ["Деколте", "19.jpg"],
-  ["Престилка", "20.jpg"]
+  ["Ръкав на женска риза", "1.jpg"],
+  ["Пола", "1.jpg"],
+  ["Ръкав на мъжка риза", "1.jpg"],
+  ["Деколте", "1.jpg"],
+  ["Престилка", "2.jpg"]
 ]
 
 region_embroderies["Русенски"] = [
-  ["Ръкав на женска риза", "16.jpg"],
-  ["Пола", "17.jpg"],
-  ["Ръкав на мъжка риза", "18.jpg"],
-  ["Деколте", "19.jpg"],
-  ["Престилка", "20.jpg"]
+  ["Ръкав на женска риза", "1.jpg"],
+  ["Пола", "1.jpg"],
+  ["Ръкав на мъжка риза", "1.jpg"],
+  ["Деколте", "1.jpg"],
+  ["Престилка", "2.jpg"]
 ]
 
 
@@ -88,6 +88,6 @@ region_embroderies.each do | region_name, embroderies |
   region = Region.find_by(name: region_name)
 
   embroderies.each do | name, image |
-    Embrodery.create(name: name, region_id: region.id, image: image)
+    Embrodery.create(name: name, region_id: region.id, image: File.open(File.join(Rails.root.join("test/fixtures/images/#{image}"))))
   end
 end
