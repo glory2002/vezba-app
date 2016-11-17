@@ -3,5 +3,6 @@ class EmbroderiesController < ApplicationController
   end
 
   def show
+    @embroderies = Embrodery.find(params[:id])
   end
 end

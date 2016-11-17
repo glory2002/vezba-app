@@ -11,7 +11,7 @@
   </div>
 </div>
 
-  <% @embroderies.each do |embrodery| %>
-    <h3><%= embrodery.name %></h4>
-      <%= link_to (image_tag embrodery.image) %>
-  <% end %>
+<% @embroderies.each do |embrodery| %>
+  <h3><%= embrodery.name %></h4>
+    <%= link_to (image_tag embrodery.image), embrodery  %>
+<% end %>
