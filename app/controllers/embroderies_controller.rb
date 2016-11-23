@@ -3,7 +3,7 @@ class EmbroderiesController < ApplicationController
   end
 
   def show
-    @embroderies = Embrodery.find(params[:region_id])
+    @embroderies = Embrodery.find(params[:id])
   end
 
   def new
