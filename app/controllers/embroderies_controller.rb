@@ -11,7 +11,7 @@ class EmbroderiesController < ApplicationController
   end
 
   def create
-    @embroderies = Embrodery.new(params[:embroderies_id])
+    @embroderies = Embrodery.new(params[:embroderies])
 
     if @embroderies.save
       redirect_to 'embroderies/show'
