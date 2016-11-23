@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-
   root 'home#index'
 
-  resources :home
+  get 'home/index'
+
+  get 'home/about'
 
   resources :regions do
     resources :embroderies

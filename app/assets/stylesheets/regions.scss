@@ -15,7 +15,7 @@ body {
 .navbar-default {
     background-color: white;
     border-color: white;
-    box-shadow: 36px 0px 22px #ddd;
+    box-shadow: 0 0 22px #ddd;
 }
 
 .navbar-nav > li {
@@ -25,6 +25,20 @@ body {
   font-family: Open Sans;
 }
 
+.bg-4 {
+  background-color: #850300;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.brand {
+  width: 50%;
+}
+
+.notice {
+  margin: 0 0 20px;
+}
 .box-img-text {
   background-color: white;
   border-radius: 2px;
@@ -36,11 +50,6 @@ body {
 .region-img {
   width: 100%;
   margin: auto;
-}
-
-.reg-name {
-  padding-bottom: 12px;
-  border-bottom: solid 1px;
 }
 
 .region-div {
@@ -60,9 +69,13 @@ body {
   color: white;
 }
 
-.img-show {
+.div-show {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.img-show {
+  width: 100%;
 }
 
 .all {

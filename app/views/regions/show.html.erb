@@ -20,10 +20,10 @@
           <div class = "col-xs-12">
             <% @embroderies.each do |embrodery| %>
               <div class = "row ul-list">
-                <div class = "col-xs-6 img-show"><%= link_to (image_tag embrodery.image, class: "" ), region_embrodery_path( embrodery, :region_id ) %></div>
+                <div class = "col-xs-6 div-show"><%= link_to (image_tag embrodery.image, class: "img-show" ), region_embrodery_path(embrodery.region_id, embrodery) %></div>
                 <div class = "col-xs-6">
                  <p class = "e-name"><%= embrodery.name %></p>
-                 <button class = "btn-show"><%= link_to "Show", region_embrodery_path( embrodery, :region_id ), class: "show-text" %></button>
+                 <button class = "btn-show"><%= link_to "Show", region_embrodery_path(embrodery.region_id, embrodery), class: "show-text" %></button>
                 </div>
               </div>
            <% end %>
