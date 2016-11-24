@@ -7,16 +7,21 @@ class EmbroderiesController < ApplicationController
   end
 
   def new
-    @embroderies = Embrodery.new
+    @embrodery = Embrodery.new
   end
 
   def create
-    @embroderies = Embrodery.new(params[:embroderies])
+    @embrodery = Embrodery.new(embrodery_params)
 
-    if @embroderies.save
-      redirect_to 'embroderies#show'
+    if @embrodery.save
+      redirect_to @embrodery
     else
-      render 'embroderies#new'
+      render 'new'
     end
+  end
+
+  private
+  def embrodery_params
+    params.require(:embrodery).permit(:name, :image)
   end
 end
