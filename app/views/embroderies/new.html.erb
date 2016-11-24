@@ -1,22 +1,23 @@
+<div class = "container">
+  <div class = "row">
+    <div class = "col-xs-12 add-wrap-div">
+      <p>Add new model</p>
+      <%= form_for @embroderies do |f| %>
+        <p>
+          <%= f.label :name %><br>
+          <%= f.text_field :name %>
+        </p>
 
-<%= form_for :embroderies do |f| %>
-  <p>
-    <%= f.label :region %><br>
-    <%= f.text_field :region %>
-  </p>
-
-  <p>
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </p>
-
-  <p>
-    <%= f.label :image %><br>
-    <%= f.file_field :image %>
-  </p>
-  <br>
-  <br>
-  <p>
-    <%= f.submit %>
-  </p>
-<% end %>
+        <p>
+          <%= f.label :image %><br>
+          <%= f.file_field :image %>
+        </p>
+        <br>
+        <br>
+        <p>
+          <%= f.submit %>
+        </p>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -14,9 +14,9 @@ class EmbroderiesController < ApplicationController
     @embroderies = Embrodery.new(params[:embroderies])
 
     if @embroderies.save
-      redirect_to 'embroderies/show'
+      redirect_to 'embroderies#show'
     else
-      render 'embroderies/new'
+      render 'embroderies#new'
     end
   end
 end

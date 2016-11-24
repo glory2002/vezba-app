@@ -5,6 +5,6 @@ class RegionsController < ApplicationController
 
   def show
     @region = Region.find(params[:id])
-    @embroderies = @region.embroderies
+    @embroderies = @region.embroderies.page(params[:page]).per(6)
   end
 end
