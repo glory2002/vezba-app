@@ -1,6 +1,6 @@
 class EmbroderiesController < ApplicationController
   def index
-  
+
   end
 
   def show
@@ -20,6 +20,13 @@ class EmbroderiesController < ApplicationController
     else
       render 'new'
     end
+  end
+
+  def destroy
+     @region = Region.find(params[:region_id])
+     @embrodery = @region.embroderies.find(params[:id])
+     @embrodery.destroy
+     redirect_to region_path(@region)
   end
 
   private
