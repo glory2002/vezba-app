@@ -1,4 +1,5 @@
 class EmbroderiesController < ApplicationController
+
   def index
 
   end
