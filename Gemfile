@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.2.4'
+
 gem 'devise'
 
 gem 'carrierwave'
@@ -10,8 +12,7 @@ gem 'autoprefixer-rails'
 
 gem 'kaminari'
 
-gem 'byebug'
-
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
