@@ -1,5 +1,6 @@
 class EmbroderiesController < ApplicationController
   def index
+  
   end
 
   def show
@@ -7,14 +8,15 @@ class EmbroderiesController < ApplicationController
   end
 
   def new
-    @embrodery = Embrodery.new
+    @region = Region.find(params[:region_id])
   end
 
   def create
-    @embrodery = Embrodery.new(embrodery_params)
+    @region = Region.find(params[:region_id])
+    @embrodery = @region.embroderies.create(embrodery_params)
 
     if @embrodery.save
-      redirect_to @embrodery
+      redirect_to region_embroderies_path(@embrodery)
     else
       render 'new'
     end

@@ -4,12 +4,12 @@
     <div class="col-md-7">
       <div clas = "row">
         <div class="col-md-12 text-box-region">
-          <h2 class = "reg-name"><%= @region.name %></h2>
+          <h2 class = "reg-name-show"><%= @region.name %></h2>
           <br>
           <div><%= @region.description %></div>
           <br>
           <br>
-          <button class="btn-add"><%= link_to "ADD MODEL", new_region_embrodery_path(:region_id), class: "show-text" %></button>
+          <button class="btn-add"><%= link_to "ADD MODEL", new_region_embrodery_path(@region), class: "show-text" %></button>
         </div>
       </div>
     </div>
