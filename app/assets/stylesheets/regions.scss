@@ -8,6 +8,11 @@
   src:url('Kelson Sans Bold BG.otf');
 }
 
+html {
+  position:relative;
+  min-height: 100%;
+}
+
 body {
   background: #fcf8e3;
   text-align: center;
@@ -30,10 +35,19 @@ body {
 }
 
 .bg-4 {
+
+}
+
+.footer {
   background-color: #ea3838;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100px;
 }
 
 .brand {
@@ -57,7 +71,7 @@ body {
   // box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
   margin: 10px
 }
-// 
+//
 // .box-img-text:hover {
 //   border: 10px solid white;
 //   transition: border 0.2s;
