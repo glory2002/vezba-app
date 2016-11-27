@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "home.scss";
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Prompt|Rubik');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,300italic,300,400italic,600italic,700italic,800italic&subset=latin,cyrillic);
 @font-face {
   font-family: 'Keson Sans Bold BG';
@@ -34,10 +35,9 @@ body {
   font-family: Open Sans;
 }
 
-.bg-4 {
-
+.bg {
+  height: 1200px;
 }
-
 .footer {
   background-color: #ea3838;
   color: #fff;
@@ -71,11 +71,6 @@ body {
   // box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
   margin: 10px
 }
-//
-// .box-img-text:hover {
-//   border: 10px solid white;
-//   transition: border 0.2s;
-// }
 
 .region-img {
   width: 100%;
@@ -83,10 +78,11 @@ body {
 }
 
 .reg-name-show {
-   background-color: #ea3838;
-   font-size: 30px;
-   color: white;
-   padding: 10px 0px 11px 20px;
+  //  background-color: #ea3838;
+   font-family: 'Miriam Libre', sans-serif;
+   font-size: 35px;
+   color: black;
+  //  padding: 10px 0px 11px 20px;
 }
 
 .region-div {
@@ -95,7 +91,10 @@ body {
   padding-bottom: 20px;
   margin: 0;
   text-align: center;
-  font-size: 38px;
+}
+
+.region-container{
+  margin-top: 40px;
 }
 
 .text-box-region {
@@ -103,6 +102,14 @@ body {
 }
 
 .region-name {
+  font-size: 25px;
+  // text-transform: uppercase;
+  font-family: Open Sans;
+  color: white;
+}
+
+.region-name:hover {
+  text-decoration: none;
   color: white;
 }
 
@@ -113,6 +120,12 @@ body {
 
 .img-show {
   width: 100%;
+}
+
+// ---
+
+.wraped-imgs {
+  margin-bottom: 120px;
 }
 
 .all {
@@ -137,32 +150,61 @@ body {
   font-size: 20px;
 }
 
-.btn-add {
-  background-color: white;
+// BUTTONS
+
+.button-add {
+  display: inline-block;
+  text-decoration: none;
   text-align: center;
-  border-radius: 2px;
-  border: solid 1px #333333;
-  padding: 10px;
+  padding: 3% 4% 3% 4%;
   margin-right: 60%;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: Open Sans;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
-.btn-show {
+.btn1 {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn1:hover {
+  text-decoration: none;
   background-color: white;
-  padding: 5% 10% 5% 10%;
-  border-radius: 2px;
-  border: solid 1px #333333;
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+.button-show {
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 5% 8% 5% 8%;
   margin-top: 30%;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: Open Sans;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
-.btn-show:hover {
- background-color: #f2f2f2;
+.btn2 {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
-.show-text {
-  color: #333333;
+.btn2:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 1px solid #4CAF50;
 }
+
+
 
 .name-single-show {
   background-color: #ea3838;

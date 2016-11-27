@@ -36,7 +36,7 @@
             <li><%= link_to "Log in", new_user_session_path, class: "btn", metod: :get %></li>
             <li><%= link_to "Sign up", new_user_registration_path, class: "btn" %></li>
           <% else %>
-            <li><%= link_to "Log out", destroy_user_session_path,class: "btn", method: :delete %></li>
+            <li><%= link_to "Log out", destroy_user_session_path, class: "btn", method: :delete %></li>
           <% end %>
           </ul>
         </div>

@@ -6,21 +6,74 @@
  margin: 0;
  padding: 0;
  background-image: image-url("BG-folk.JPG");
- background-size: cover;
+ background-size: 100% auto;
  background-attachment: fixed;
- background-position: center;
+ background-position: center top;
  background-repeat: no-repeat;
+
 }
 
 .bg {
-  height: 800px;
+  // height: 1000px;
+  min-height: 100%;
 }
 
 .p-home {
   margin-top: 181px;
   background-color: #ea3838;
   color: white;
-  font-size: 36px;
-  padding: 65px;
-  font-family: Open Sans;
+  padding: 65px 65px 65px 65px;
+}
+
+.main-title {
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-family: 'Miriam Libre', sans-serif;
+  // font-weight: bold;
+  font-size: 50px;
+
+}
+
+.sub-title {
+  font-family: Open sans;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.button-more {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 4% 5% 4% 5%;
+  border-radius: 2px;
+  margin: 10% 25% 0 25%;
+  text-transform: uppercase;
+}
+
+
+.button1 {
+  background-color: #ea3838;
+  color: white;
+  border: solid 1px white;
+}
+
+.button1:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #ea3838;
+}
+
+
+.link-text-more {
+  color: white;
+}
+
+.link-text-more {
+  color: white;
 }
