@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "home.scss";
+@import "show.scss";
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Prompt|Rubik');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,300italic,300,400italic,600italic,700italic,800italic&subset=latin,cyrillic);
 @font-face {
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-  background: #fcf8e3;
+  background: #ddd;
   text-align: center;
 }
 .navbar{
@@ -72,26 +73,81 @@ body {
   margin: 10px
 }
 
-.region-img {
-  width: 100%;
-  margin: auto;
-}
-
 .reg-name-show {
-  //  background-color: #ea3838;
    font-family: 'Miriam Libre', sans-serif;
    font-size: 35px;
    color: black;
   //  padding: 10px 0px 11px 20px;
 }
 
-.region-div {
-  background-color: #ea3838;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0;
-  text-align: center;
+// HOOVER REGION EFFECT
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
 }
+
+.hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #ea3838;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.img-responsive-region {
+  width: 100%;
+  display: block;
+  position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect:hover .img-responsive-region {
+-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+}
+
+.hovereffect .link-name {
+  color: white;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  font-size: 20px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+.hovereffect:hover .overlay,
+.hovereffect:hover .link-name,
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .link-name {
+  text-decoration: none;
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+// ---
+
 
 .region-container{
   margin-top: 40px;
@@ -102,8 +158,8 @@ body {
 }
 
 .region-name {
-  font-size: 25px;
-  // text-transform: uppercase;
+  font-size: 20px;
+  text-transform: uppercase;
   font-family: Open Sans;
   color: white;
 }
@@ -205,17 +261,6 @@ body {
 }
 
 
-
-.name-single-show {
-  background-color: #ea3838;
-  color: white;
-  font-size: 30px;
-  padding: 15px;
-}
-
-.img-single-show {
-  width: 100%;
-}
 
 .add-wrap-div {
   padding: 200px 0 300px 0;
