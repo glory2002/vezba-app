@@ -1,5 +1,5 @@
 class EmbroderiesController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :delete ]
+  before_action :authenticate_user!, only: [:new, :create, :destroy ]
 
   def index
 
