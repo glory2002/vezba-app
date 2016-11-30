@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row ">
     <div class = " row wrap-div">
-      <div class="col-md-5"><%= image_tag @region.image, class: "img-responsive-region" %></div>
+      <div class="col-md-5 region-div"><%= image_tag @region.image, class: "img-responsive-region" %></div>
       <div class="col-md-7">
         <div clas = "row">
           <div class="col-md-12 text-box-region">
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <%= paginate @embroderies %>
+      <%= paginate @embroderies, :left => 1, :right => 3 %>
 
     </div>
   </div>

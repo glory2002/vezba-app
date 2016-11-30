@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: #e9ebee;
+  background: #efefef;
   text-align: center;
 }
 
@@ -73,7 +73,6 @@ body {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  // padding: 4% 5% 4% 5%;
   margin-bottom: 20%;
   font-size: 16px;
   font-family: Open Sans;
@@ -94,16 +93,24 @@ body {
   color: black;
 }
 
-
 .notice {
   margin: 0 0 20px;
 }
 
+.wrap-div-region {
+  margin-bottom: 100px;
+}
+
 .wrap-div {
-  padding: 28px 30px 25px 30px;
+  // padding: 30px 30px 30px 20px;
   background-color: white;
   border-radius: 3px;
   margin-top: 30px;
+  // border: 1px solid #ddd;
+}
+
+.region-div {
+  padding-left: 0;
 }
 
 .box-img-text {
@@ -112,11 +119,6 @@ body {
   margin: 10px
 }
 
-.reg-name-show {
-   font-family: 'Miriam Libre', sans-serif;
-   font-size: 35px;
-   color: black;
-}
 
 // HOOVER REGION EFFECT
 
@@ -132,10 +134,10 @@ body {
 }
 
 .hovereffect .overlay {
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
 	top: auto;
 	bottom: 0;
 	padding: 1em;
@@ -207,10 +209,6 @@ body {
   color: white;
 }
 
-// .wraped-show-img {
-//   position: relative;
-// }
-
 .div-show {
   overflow: hidden;
   position: relative;
@@ -218,8 +216,6 @@ body {
   height: 280px;
   padding-left: 0px;
   padding-right: 0px;
-  // width: 100%;
-  // height: 100%;
   float: left;
   cursor: default;
 }
@@ -247,7 +243,6 @@ body {
 .ul-list {
   background-color: white;
   padding-left: 0px;
-  // border: solid 1px #eeeeee;
   margin: 0% 1% 4% 1%;
 }
 

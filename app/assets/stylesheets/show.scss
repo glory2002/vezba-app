@@ -1,3 +1,12 @@
+.reg-name-show {
+ text-transform: uppercase;
+ font-family: Open Sans;
+ font-weight: 600;
+ font-size: 30px;
+ color: black;
+ margin-top: 38px;
+}
+
 .wrap-show-img {
   margin-bottom: 10%;
 }
@@ -12,3 +21,55 @@
   font-size: 30px;
   padding: 15px;
 }
+
+// PAGINATION
+
+.first, .last {
+  display:none;
+}
+
+.page, .next, .prev {
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 2px;
+  background: #DDE3E7;
+  font-family: Open Sans;
+  font-size: 20px;
+  color: #7b8996;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page.current,
+.page:hover {
+  text-decoration: none;
+  background: #4caf50;
+  color: #fff;
+}
+
+.prev:hover {
+  text-decoration: none;
+  background: #4caf50;
+  color: white;
+}
+
+.next:hover {
+  text-decoration: none;
+  background: #4caf50;
+  color: white;
+}
+
+
+.pagination > .page > a {
+  text-decoration: none;
+  color: #7b8996;
+}
+
+
+.pagination > .page > a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+// ----

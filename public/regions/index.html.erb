@@ -1,0 +1,12 @@
+<div class = "container region-container">
+  <div class = "row">
+    <% @regions.each do |region| %>
+      <div class = "col-md-4">
+        <div class = "hovereffect">
+          <%= link_to (image_tag region.image,  class:"img-responsive-region"), region %>
+          <div class = "overlay"><%= link_to region.name, region,  class:"link-name" %></div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
