@@ -9,34 +9,34 @@
 
 regions = [
   ["Samokov Region", "samokovsko_1.jpg",
-  %{"Изложбата се организира от Пенсионерски клуб "Приятели на библиотеката" към Пенсионерски съюз'2004 и библиотеката. В нея ще бъдат представени български шевици от шест етнографски
-области - Варненска, Видинска, Софийска, Тракийска, Плевенска, шевици от Родопска, Ловешка, Котленска област и македонски шевици, обл. Станке Димитров
-Четири дами ще изложат своите шевици - Божана Абаджиева, Софка Пачкова, Живка Маркова и Мария Пенчева"}],
+  %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
+
+Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
   ["Lovech Region","loveshko_1.jpg",
-  %{"Ловешките шевици...Изложбата се организира от Пенсионерски клуб "Приятели на библиотеката" към Пенсионерски съюз'2004 и библиотеката. В нея ще бъдат представени български шевици от шест етнографски
-области - Варненска, Видинска, Софийска, Тракийска, Плевенска, шевици от Родопска, Ловешка, Котленска област и македонски шевици, обл. Станке Димитров
-Четири дами ще изложат своите шевици - Божана Абаджиева, Софка Пачкова, Живка Маркова и Мария Пенчева"}],
+  %{"ЛLorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
+
+Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
   ["Sofia Region","sofiisko_1.jpg",
-  %{"Самоковските шевици...Изложбата се организира от Пенсионерски клуб "Приятели на библиотеката" към Пенсионерски съюз'2004 и библиотеката. В нея ще бъдат представени български шевици от шест етнографски
-области - Варненска, Видинска, Софийска, Тракийска, Плевенска, шевици от Родопска, Ловешка, Котленска област и македонски шевици, обл. Станке Димитров
-Четири дами ще изложат своите шевици - Божана Абаджиева, Софка Пачкова, Живка Маркова и Мария Пенчева"}],
+  %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
+
+Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
   ["Kapanski Region","samokovsko_1.jpg",
-  %{"Капанските шевици...Изложбата се организира от Пенсионерски клуб "Приятели на библиотеката" към Пенсионерски съюз'2004 и библиотеката. В нея ще бъдат представени български шевици от шест етнографски
-области - Варненска, Видинска, Софийска, Тракийска, Плевенска, шевици от Родопска, Ловешка, Котленска област и македонски шевици, обл. Станке Димитров
-Четири дами ще изложат своите шевици - Божана Абаджиева, Софка Пачкова, Живка Маркова и Мария Пенчева"}],
+  %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
+
+Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
   ["Vidin Region","loveshko_1.jpg",
-  %{"Видинските шевици...Изложбата се организира от Пенсионерски клуб "Приятели на библиотеката" към Пенсионерски съюз'2004 и библиотеката. В нея ще бъдат представени български шевици от шест етнографски
-области - Варненска, Видинска, Софийска, Тракийска, Плевенска, шевици от Родопска, Ловешка, Котленска област и македонски шевици, обл. Станке Димитров
-Четири дами ще изложат своите шевици - Божана Абаджиева, Софка Пачкова, Живка Маркова и Мария Пенчева"}],
+  %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
+
+Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
   ["Razlog Region","sofiisko_1.jpg",
-  %{"Видинските шевици...Изложбата се организира от Пенсионерски клуб "Приятели на библиотеката" към Пенсионерски съюз'2004 и библиотеката. В нея ще бъдат представени български шевици от шест етнографски
-области - Варненска, Видинска, Софийска, Тракийска, Плевенска, шевици от Родопска, Ловешка, Котленска област и македонски шевици, обл. Станке Димитров
-Четири дами ще изложат своите шевици - Божана Абаджиева, Софка Пачкова, Живка Маркова и Мария Пенчева"}]
+  %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
+
+Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}]
 
 ]
 
@@ -48,69 +48,69 @@ end
 region_embroderies = {}
 
 region_embroderies["Samokov Region"] = [
-  ["Ръкав на ж. риза", "1.jpg"],
-  ["Пола", "2.jpg"],
-  ["Ръкав на мъжка риза", "1.jpg"],
-  ["Деколте", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Ръкав на м.риза", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Престилка", "1.jpg"]
+  ["Sleeve female shirt", "1.jpg"],
+  ["Skirt", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Аpron", "1.jpg"]
 ]
 
 region_embroderies["Lovech Region"] = [
-  ["Ръкав на женска риза", "1.jpg"],
-  ["Пола", "1.jpg"],
-  ["Ръкав на мъжка риза", "1.jpg"],
-  ["Деколте", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Ръкав на м.риза", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Престилка", "1.jpg"]
+  ["Sleeve female shirt", "1.jpg"],
+  ["Skirt", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Аpron", "1.jpg"]
 ]
 
 region_embroderies["Sofia Region"] = [
-  ["Ръкав на женска риза", "1.jpg"],
-  ["Пола", "1.jpg"],
-  ["Ръкав на мъжка риза", "1.jpg"],
-  ["Деколте", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Престилка", "1.jpg"],
-  ["Ръкав на м.риза", "2.jpg"],
-  ["Престилка", "1.jpg"]
+  ["Sleeve female shirt", "1.jpg"],
+  ["Skirt", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Аpron", "1.jpg"]
 ]
 
 region_embroderies["Kapanski Region"] = [
-  ["Ръкав на женска риза", "kapanska_1.jpg"],
-  ["Пола", "kapanska_2.jpg"],
-  ["Ръкав на мъжка риза", "kapanska_3.jpg"],
-  ["Деколте", "2.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Престилка", "1.jpg"],
-  ["Ръкав на м.риза", "2.jpg"],
-  ["Престилка", "1.jpg"]
+  ["Sleeve female shirt", "1.jpg"],
+  ["Skirt", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Аpron", "1.jpg"]
 ]
 
 region_embroderies["Vidin Region"] = [
-  ["Ръкав на женска риза", "1.jpg"],
-  ["Пола", "1.jpg"],
-  ["Ръкав на мъжка риза", "1.jpg"],
-  ["Деколте", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Престилка", "1.jpg"],
-  ["Ръкав на м.риза", "2.jpg"],
-  ["Престилка", "1.jpg"]
+  ["Sleeve female shirt", "1.jpg"],
+  ["Skirt", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "2.jpg"],
+  ["Аpron", "1.jpg"]
 ]
 
 region_embroderies["Razlog Region"] = [
-  ["Ръкав на женска риза", "1.jpg"],
-  ["Пола", "1.jpg"],
-  ["Ръкав на мъжка риза", "1.jpg"],
-  ["Деколте", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Престилка", "1.jpg"],
-  ["Престилка", "2.jpg"],
-  ["Ръкав на м.риза", "1.jpg"]
+  ["Sleeve female shirt", "1.jpg"],
+  ["Skirt", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "1.jpg"],
+  ["Аpron", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"],
+  ["Neckline", "2.jpg"],
+  ["Sleeve male shirt", "1.jpg"]
 ]
 
 
