@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "autentication.scss";
+@import "about.scss";
 @import "home.scss";
 @import "show.scss";
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Prompt|Rubik');
@@ -47,9 +48,6 @@ body {
     color: #ea3838;
 }
 
-.bg {
-  height: 1200px;
-}
 
 .footer {
   background-color: #ea3838;
@@ -123,14 +121,15 @@ body {
 // HOOVER REGION EFFECT
 
 .hovereffect {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 30px;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border: 1px solid #ede9e9;
+  cursor: default;
 }
 
 .hovereffect .overlay {
@@ -309,4 +308,16 @@ body {
 .add-wrap-div {
   padding: 200px 0 300px 0;
   background-color: white;
+}
+
+// ADD NEW
+.well-bg {
+  margin-top: 70px;
+}
+
+.title-add {
+   font-family: Open Sans;
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 10px;
 }
