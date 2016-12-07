@@ -178,7 +178,6 @@ body {
 
 // ---
 
-
 .region-container{
   margin-top: 40px;
 }
@@ -197,23 +196,6 @@ body {
 .region-name:hover {
   text-decoration: none;
   color: white;
-}
-
-.div-show {
-  overflow: hidden;
-  position: relative;
-  width: 280px;
-  height: 280px;
-  padding-left: 0px;
-  padding-right: 0px;
-  float: left;
-  cursor: default;
-}
-
-.img-show {
-  width: 100%;
-  display: block;
-  position: relative;
 }
 
 // ---

@@ -10,12 +10,7 @@
 }
 
 .all {
-  // float: left;
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
-  column-count: 2;
   margin-top: 60px;
-  // padding-top: 10px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -26,7 +21,25 @@
   padding-left: 0px;
   margin: 0% 0% 4% 0%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
+.div-show {
+  overflow: hidden;
+  position: relative;
+  width: 280px;
+  height: 280px;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  cursor: default;
+}
+
+.img-show {
+  width: 250%;
+  position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .e-name {

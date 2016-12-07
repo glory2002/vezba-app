@@ -17,19 +17,19 @@
     </div>
 
     <div class = "row wraped-imgs">
-      <div class = "all col-md-12 col-xs-12 col-lg-12">
+      <div class = "all col-md-12">
         <div class = "row">
-          <div class = "col-xs-12 wraped-show-img">
-            <% @embroderies.each do |embrodery| %>
+          <% @embroderies.each do |embrodery| %>
+            <div class = "col-md-6 wraped-show-img">
               <div class = "row ul-list">
-                <div class = "col-xs-6 div-show"><%= link_to (image_tag embrodery.image, class: "img-show" ), region_embrodery_path(embrodery.region_id, embrodery) %></div>
-                <div class = "col-xs-6">
+                <div class = "col-md-6 div-show"><%= link_to (image_tag embrodery.image, class: "img-show" ), region_embrodery_path(embrodery.region_id, embrodery) %></div>
+                <div class = "col-md-6">
                  <p class = "e-name"><%= embrodery.name %></p>
                  <%= link_to "Show", region_embrodery_path(embrodery.region_id, embrodery), class: "button-show btn2" %>
                 </div>
               </div>
+            </div>
            <% end %>
-          </div>
         </div>
       </div>
       <%= paginate @embroderies, :left => 1, :right => 3 %>
