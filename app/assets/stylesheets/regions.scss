@@ -6,6 +6,7 @@
 @import "home.scss";
 @import "show.scss";
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Prompt|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,300italic,300,400italic,600italic,700italic,800italic&subset=latin,cyrillic);
 @font-face {
   font-family: 'Keson Sans Bold BG';
@@ -159,8 +160,9 @@ body {
 .hovereffect .link-name {
   color: white;
   text-transform: uppercase;
-  font-family: Open Sans;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  font-weight: bold;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,200%,0);
@@ -272,9 +274,17 @@ body {
   margin-top: 70px;
 }
 
+.well > h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 40px;
+}
+
 .title-add {
-   font-family: Open Sans;
-   font-size: 40px;
-   font-weight: bold;
-   margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
