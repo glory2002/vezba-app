@@ -20,13 +20,11 @@
       <div class = "all col-md-12">
         <div class = "row clearfix">
           <% @embroderies.each do |embrodery| %>
-            <div class = "col-md-6 wraped-show-img">
+            <div class = "col-md-4 wraped-show-img">
               <div class = "row ul-list">
-                <div class = "col-md-6 div-show"><%= link_to (image_tag embrodery.image, class: "img-show" ), region_embrodery_path(embrodery.region_id, embrodery) %></div>
-                <div class = "col-md-6">
+                <div class = "div-show"><%= link_to (image_tag embrodery.image, class: "img-show" ), region_embrodery_path(embrodery.region_id, embrodery) %></div>
                  <p class = "e-name"><%= embrodery.name %></p>
-                 <%= link_to "Show", region_embrodery_path(embrodery.region_id, embrodery), class: "button-show btn2" %>
-                </div>
+                 <p class = "e-name"><%= link_to "View", region_embrodery_path(embrodery.region_id, embrodery), class: "button-show btn2" %></p>
               </div>
             </div>
            <% end %>

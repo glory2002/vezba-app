@@ -11,6 +11,9 @@
 @font-face {
   font-family: 'Keson Sans Bold BG';
   src:url('Kelson Sans Bold BG.otf');
+
+  font-family: 'Kankin';
+  src:url('Kankin.otf');
 }
 
 html {
@@ -21,9 +24,16 @@ html {
 body {
   background: white;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-.navbar{
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar {
   margin-bottom: 0px;
   z-index: 10;
 }
@@ -31,51 +41,56 @@ body {
 .navbar-default {
   background-color: white;
   border-color: white;
-  box-shadow: 0 0 22px #ddd;
 }
 
-.navbar-nav > li {
-  float: left;
+.nav-menu-middle {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.nav-menu-right > li{
+  float: none;
+  display: inline-block;
+}
+
+.nav-menu-middle > li {
+  float: none;
+  display: inline-block;
   margin: 0 12px 0 12px;
-  font-size: 16px;
-  font-family: Open Sans;
+  font-size: 22px;
+  font-family: Kankin;
 }
 
-.navbar-nav > li > a {
-    padding: 10px;
+.nav-menu-middle > li > a {
+  padding: 10px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: black;
+.navbar-default .nav-menu-middle > li > a {
+  background-color: white;
+  color: #ea3838;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: #ea3838;
-}
-
-.footer {
-  background-color: #ea3838;
-  color: #fff;
-  padding-top: 35px;
-  padding-bottom: 50px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height:100px;
+.navbar-default .nav-menu-middle > li > a:hover {
+  color: #00ce0a;
 }
 
 .brand {
-  margin-top: 2%;
+  margin-top: 1%;
   width: 50%;
 }
 
 .button-user {
-  text-transform: uppercase;
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  border-radius: 3px;
   margin-bottom: 20%;
+  margin-left: 5px;
+  margin-right: 5px;
   font-size: 16px;
   font-family: Open Sans;
   cursor: pointer;
@@ -83,16 +98,39 @@ body {
   transition-duration: 0.4s;
 }
 
+.menu-btn {
+  color: #ea3838;
+}
+
 .btn3 {
+  padding: 12px;
   background-color: white;
-  color: black;
-  border: 1px solid black;
+  border: 2px solid #ea3838;
 }
 
 .btn3:hover {
   text-decoration: none;
+  background-color: #ea3838;
+  color: white;
+}
+
+.social-btn {
+  text-decoration: none;
+  margin: 0 2px 0 2px;
+  background-color: #ea3838;
+  color: white;
+  border-radius: 3px;
+  padding: 6px 14px 10px 14px;
+  border: 2px solid #ea3838;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.social-btn:hover {
+  text-decoration: none;
   background-color: white;
-  color: black;
+  color: #00ce0a;
+  border: 2px solid #00ce0a;
 }
 
 .notice {
@@ -236,34 +274,6 @@ body {
   border: 1px solid #4CAF50;
 }
 
-.button-show {
-  text-transform: uppercase;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 2px;
-  padding: 5% 8% 5% 8%;
-  margin-top: 30%;
-  font-size: 16px;
-  font-family: Open Sans;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-
-.btn2 {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-}
-
-.btn2:hover {
-  text-decoration: none;
-  background-color: white;
-  color: black;
-  border: 1px solid #4CAF50;
-}
-
 .add-wrap-div {
   padding: 200px 0 300px 0;
   background-color: white;
@@ -287,4 +297,16 @@ body {
   letter-spacing: -1px;
   font-size: 40px;
   margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #ea3838;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100px;
 }

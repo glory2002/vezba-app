@@ -16,21 +16,22 @@
 }
 
 .ul-list {
+  height: 400px;
   margin-top: 50px;
   background-color: white;
   padding-left: 0px;
-  margin: 0% 0% 4% 0%;
+  margin: 0% 0% 10% 0%;
   box-shadow: 0 1px 7px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .div-show {
   overflow: hidden;
   position: relative;
-  width: 280px;
+  // width: 280px;
   height: 280px;
   padding-left: 0px;
   padding-right: 0px;
-  float: left;
+  // float: left;
   cursor: default;
 }
 
@@ -44,8 +45,9 @@
 
 .e-name {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin-top: 60px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
   font-size: 23px;
 }
 
@@ -71,7 +73,27 @@
   background-color: #ea3838;
   color: white;
   font-size: 30px;
-  padding: 35px;
+}
+
+.button-show {
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10%;
+  font-size: 17px;
+  font-family: Open Sans;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn2 {
+  color: red;
+}
+
+.btn2:hover {
+  text-decoration: none;
+  color: black;
 }
 
 // PAGINATION
