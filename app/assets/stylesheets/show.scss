@@ -27,11 +27,9 @@
 .div-show {
   overflow: hidden;
   position: relative;
-  // width: 280px;
   height: 280px;
   padding-left: 0px;
   padding-right: 0px;
-  // float: left;
   cursor: default;
 }
 
@@ -44,11 +42,12 @@
 }
 
 .e-name {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kankin';
+  color: #ea3838;
   text-align: left;
   margin-left: 20px;
   margin-top: 15px;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .reg-name-show {
@@ -78,7 +77,6 @@
 .button-show {
   text-decoration: none;
   text-align: left;
-  margin-bottom: 10%;
   font-size: 17px;
   font-family: Open Sans;
   font-weight: bold;
@@ -88,12 +86,12 @@
 }
 
 .btn2 {
-  color: red;
+  color: black;
 }
 
 .btn2:hover {
   text-decoration: none;
-  color: black;
+  color: green;
 }
 
 // PAGINATION

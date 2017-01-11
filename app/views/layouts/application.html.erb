@@ -27,24 +27,39 @@
         <div class="col-md-6">
           <ul class="nav nav-menu-middle">
             <li><%= link_to "HOME", home_index_path, class: "menu-btn" %></li>
-            <li><%= link_to "ABOUT", home_about_path, class: "menu-btn" %></li>
-            <li><%= link_to "MODELS", regions_path(:region_id), class: "menu-btn" %></li>
-            <li><%= link_to "BLOG", regions_path(:region_id), class: "menu-btn" %></li>
-            <li><%= link_to "CONTACTS", regions_path(:region_id), class: "menu-btn" %></li>
+            <li><%= link_to "ABOUT", home_about_path, class: "menu-btn #{current_page?(home_about_path) ? "current" : nil }" %></li>
+            <li><%= link_to "MODELS", regions_path(:region_id), class: "menu-btn #{current_page?(regions_path(:region_id)) ? "current" : nil }" %></li>
+            <!-- <li><%= link_to "BLOG", regions_path(:region_id), class: "menu-btn" %></li> -->
+            <!-- <li><%= link_to "CONTACTS", regions_path(:region_id), class: "menu-btn" %></li> -->
           </ul>
         </div>
 
         <div class = "col-md-3 nav-right">
           <ul class=" nav-menu-right navbar-right">
             <% if !user_signed_in? %>
-              <li><%= link_to "Log in", new_user_session_path, class: "button-user btn3 menu-btn", metod: :get %></li>
-              <li><%= link_to "Sign up", new_user_registration_path, class: "button-user btn3 menu-btn" %></li>
+              <li><%= link_to "Log in", new_user_session_path, class: "button-user btn3", metod: :get %></li>
+              <li><%= link_to "Sign up", new_user_registration_path, class: "button-user btn3" %></li>
             <% else %>
-              <li><%= link_to "Log out", destroy_user_session_path, class: "button-user btn3 menu-btn", method: :delete %></li>
+              <li><%= link_to "Log out", destroy_user_session_path, class: "button-user btn3", method: :delete %></li>
             <% end %>
             <li><a class = "social-btn" href="https://www.facebook.com/groups/vezba/">f</a></li>
-            <li><a class = "social-btn" href="">en</a></li>
+            <li><a id = "myBtn" class = "social-btn" href="#">en</a></li>
           </ul>
+
+            <div id="myModal" class="modal">
+             <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Choose Language</h2>
+                </div>
+                <div class="modal-body">
+                  <a class = "modal-button" href="">Bulgarian</a>
+                  <a class = "modal-button" href="">English</a>
+                </div>
+              </div>
+            </div>
+
         </div>
       </div>
     </nav>

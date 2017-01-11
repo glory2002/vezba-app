@@ -23,17 +23,17 @@ Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exer
 
 Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
-  ["Kapanski Region","samokovsko_1.jpg",
+  ["Kapanski Region","kapanski_1.jpg",
   %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
 
 Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
-  ["Vidin Region","loveshko_1.jpg",
+  ["Vidin Region","vidinski_1.jpg",
   %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
 
 Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}],
 
-  ["Razlog Region","sofiisko_1.jpg",
+  ["Razlog Region","razloshko_1.jpg",
   %{"Lorem ipsum dolor sit amet, populo quodsi adipisci est ea, eam fabellas torquatos elaboraret no. Has ut nonumes iudicabit. Autem exerci est no, timeam admodum facilisi sea at. Qui eu ipsum volutpat, case phaedrum ex duo. Deseruisse honestatis suscipiantur duo ei, ne nonumy iisque eruditi sea. Dicit vivendo denique ea est. His eu doming doctus, has nihil liberavisse et, sea an semper deserunt ullamcorper.
 
 Ne eos nominavi appetere quaerendum, convenire molestiae sadipscing ut mea. Exerci gloriatur dissentias per ne, nam illum utamur in. Pri ut quem habemus adipiscing, alia repudiandae id vim. At harum paulo nam, per te tollit iudicabit."}]

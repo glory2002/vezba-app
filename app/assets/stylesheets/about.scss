@@ -1,27 +1,35 @@
-.bg-about {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-image: image-url("horo1.JPG");
-  background-size: 100% auto;
-  background-attachment: fixed;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
+// .bg-about {
+//   width: 100%;
+//   margin: 0;
+//   padding: 0;
+//   background-image: image-url("horo1.JPG");
+//   background-size: 100% auto;
+//   background-attachment: fixed;
+//   background-position: center top;
+//   background-repeat: no-repeat;
+// }
 
 .wraped-about {
   margin-top: 60px;
-  background-color: #ea3838;
-  color: white;
+  background-color: white;
+  color: #ea3838;
+  border-radius: 3px;
+  border: solid 2px #ea3838;
   padding: 80px;
   font-size: 16px;
   text-align: justify;
 }
 
-.wraped-about > h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 50px;
+.wraped-about > h3 {
+  font: normal 24px 'Kankin';
+  margin-top: 30px;
+}
+
+.wraped-about > p > span {
+  font: normal 24px 'Kankin';
   margin-top: 0px;
+}
+
+.wraped-about > p {
+  font: normal 19px/25px Open Sans;
 }
