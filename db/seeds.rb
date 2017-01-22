@@ -48,23 +48,23 @@ end
 region_embroderies = {}
 
 region_embroderies["Samokov Region"] = [
-  ["Sleeve female shirt", "1.jpg"],
-  ["Skirt", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Sleeve female shirt", "2.jpg"],
+  ["Skirt", "3.jpg"],
+  ["Sleeve male shirt", "3.jpg"],
   ["Neckline", "1.jpg"],
   ["Аpron", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Sleeve male shirt", "3.jpg"],
   ["Аpron", "2.jpg"],
-  ["Аpron", "1.jpg"]
+  ["Аpron", "3.jpg"]
 ]
 
 region_embroderies["Lovech Region"] = [
-  ["Sleeve female shirt", "1.jpg"],
-  ["Skirt", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Sleeve female shirt", "3.jpg"],
+  ["Skirt", "1.jpg"],
+  ["Sleeve male shirt", "2.jpg"],
   ["Neckline", "1.jpg"],
-  ["Аpron", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Аpron", "3.jpg"],
+  ["Sleeve male shirt", "2.jpg"],
   ["Аpron", "2.jpg"],
   ["Аpron", "1.jpg"]
 ]
@@ -81,14 +81,14 @@ region_embroderies["Sofia Region"] = [
 ]
 
 region_embroderies["Kapanski Region"] = [
-  ["Sleeve female shirt", "1.jpg"],
-  ["Skirt", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Sleeve female shirt", "2.jpg"],
+  ["Skirt", "3.jpg"],
+  ["Sleeve male shirt", "3.jpg"],
   ["Neckline", "1.jpg"],
   ["Аpron", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Sleeve male shirt", "3.jpg"],
   ["Аpron", "2.jpg"],
-  ["Аpron", "1.jpg"]
+  ["Аpron", "3.jpg"]
 ]
 
 region_embroderies["Vidin Region"] = [
@@ -98,18 +98,18 @@ region_embroderies["Vidin Region"] = [
   ["Neckline", "1.jpg"],
   ["Аpron", "2.jpg"],
   ["Sleeve male shirt", "1.jpg"],
-  ["Neckline", "2.jpg"],
+  ["Аpron", "2.jpg"],
   ["Аpron", "1.jpg"]
 ]
 
 region_embroderies["Razlog Region"] = [
   ["Sleeve female shirt", "1.jpg"],
   ["Skirt", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
+  ["Sleeve male shirt", "3.jpg"],
   ["Neckline", "1.jpg"],
-  ["Аpron", "2.jpg"],
-  ["Sleeve male shirt", "1.jpg"],
-  ["Neckline", "2.jpg"],
+  ["Аpron", "3.jpg"],
+  ["Sleeve male shirt", "2.jpg"],
+  ["Neckline", "3.jpg"],
   ["Sleeve male shirt", "1.jpg"]
 ]
 
