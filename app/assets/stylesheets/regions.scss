@@ -67,9 +67,9 @@ body {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background-color: white;
-  }
+  text-decoration: none;
+  background-color: white;
+}
 
 .menu-btn {
   background-color: white;
@@ -148,6 +148,7 @@ body {
 
 .region-div {
   padding-left: 0;
+  padding-right: 0;
 }
 
 .box-img-text {
@@ -156,182 +157,52 @@ body {
   margin: 10px
 }
 
-.hovereffect {
-  margin-bottom: 25px;
-  overflow: hidden;
-}
-
 .img-responsive-region {
   width: 100%;
 }
 
-// .overlay {
-//   background-color: #ea3838;
-// }
-//
-// .overlay:hover {
-//   background-color: white;
-//   // border: 2px solid #ea3838;
-//   color: #ea3838;
-// }
+.hovereffect {
+  margin-bottom: 25px;
+}
 
-.inner-overlay {
-  overflow: hidden;
+.hovereffect a:hover { text-decoration: none; }
+
+
+.overlay {
+  border-top: 0 none;
+  transition: all 0.2s;
   background-color: #ea3838;
-  // padding: 15px;
+  font-family: 'Kankin';
+  font-size: 30px;
+  padding: 22px 59px;
+  border: 2px solid #ea3838;
+}
+
+.overlay:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #ea3838;
+  text-decoration: none;
 }
 
 .region-title {
-  padding: 22px 59px;
   color: white;
-  font-family: 'Kankin';
-  font-size: 30px;
 }
 
-.region-title:hover {
-  background-color: white;
+.overlay:hover .region-title {
   color: #ea3838;
-  text-decoration: none;
 }
-
-// HOOVER REGION EFFECT
-//
-// .hovereffect {
-//   width: 100%;
-//   height: 100%;
-//   margin-bottom: 30px;
-//   float: left;
-//   overflow: hidden;
-//   position: relative;
-//   text-align: center;
-//   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-//   cursor: default;
-// }
-//
-// .hovereffect .overlay {
-//   width: 100%;
-//   position: absolute;
-//   overflow: hidden;
-//   left: 0;
-// 	top: auto;
-// 	bottom: 0;
-// 	padding: 1em;
-// 	height: 65px;
-// 	background: #ea3838;
-// 	-webkit-transition: -webkit-transform 0.35s;
-// 	transition: transform 0.35s;
-// 	-webkit-transform: translate3d(0,100%,0);
-// 	transform: translate3d(0,100%,0);
-// }
-//
-// .img-responsive-region {
-//   width: 100%;
-//   display: block;
-//   position: relative;
-// 	-webkit-transition: -webkit-transform 0.35s;
-// 	transition: transform 0.35s;
-// }
-//
-// .hovereffect:hover .img-responsive-region {
-// -webkit-transform: translate3d(0,-10%,0);
-// 	transform: translate3d(0,-10%,0);
-// }
-//
-// .hovereffect .link-name {
-//   color: white;
-//   text-transform: uppercase;
-//   font-family: 'Roboto', sans-serif;
-//   font-size: 20px;
-//   font-weight: bold;
-// 	-webkit-transition: -webkit-transform 0.35s;
-// 	transition: transform 0.35s;
-// 	-webkit-transform: translate3d(0,200%,0);
-// 	transform: translate3d(0,200%,0);
-// }
-//
-// .hovereffect:hover .overlay,
-// .hovereffect:hover .link-name,
-// {
-// 	-webkit-transform: translate3d(0,0,0);
-// 	transform: translate3d(0,0,0);
-// }
-//
-// .hovereffect:hover .link-name {
-//   text-decoration: none;
-// 	-webkit-transition-delay: 0.05s;
-// 	transition-delay: 0.05s;
-// }
-//
-// // ---
-//
-// .region-container{
-//   margin-top: 40px;
-// }
-//
-// .text-box-region {
-//   text-align: left;
-// }
-//
-// .region-name {
-//   font-size: 20px;
-//   text-transform: uppercase;
-//   font-family: Open Sans;
-//   color: white;
-// }
-//
-// .region-name:hover {
-//   text-decoration: none;
-//   color: white;
-// }
-
-// ---
-
 
 // BUTTONS
-
-.button-add {
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  padding: 3% 4% 3% 4%;
-  margin-right: 60%;
-  border-radius: 2px;
-  font-size: 16px;
-  font-family: Open Sans;
-  cursor: pointer;
-  border: 1px solid #4CAF50;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-
-.btn1 {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.btn1:hover {
-  text-decoration: none;
-  background-color: white;
-  color: #4CAF50;
-  border: 1px solid #4CAF50;
-}
-
 .add-wrap-div {
   padding: 200px 0 300px 0;
   background-color: white;
 }
 
 // ADD NEW
-.well-bg {
-  margin-top: 70px;
-}
-
-.well > h2{
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 40px;
-}
+// .well-bg {
+//   margin-top: 70px;
+// }
 
 .title-add {
   font-family: 'Roboto', sans-serif;
@@ -342,8 +213,7 @@ body {
 }
 
 .footer {
-  background-color: #ea3838;
-  color: #fff;
+  color: black;
   padding-top: 35px;
   padding-bottom: 50px;
   position: absolute;
@@ -351,4 +221,20 @@ body {
   left: 0;
   right: 0;
   height:100px;
+}
+
+footer > div > p {
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+footer > div > p > a {
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+footer > div > p > a:hover {
+  color: #ea3838;
 }

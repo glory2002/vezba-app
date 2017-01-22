@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button> -->
-            <%= link_to (image_tag "Logo.png", class: "brand" ) %>
+            <%= link_to (image_tag "Logo.png", class: "brand navbar-left" ), home_index_path %>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,11 +51,19 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <span class="close">&times;</span>
-                  <h2>Choose Language</h2>
+                  <h2 class="modal-title">Choose Language</h2>
                 </div>
-                <div class="modal-body">
-                  <a class = "modal-button" href="">Bulgarian</a>
-                  <a class = "modal-button" href="">English</a>
+                <div class="row modal-body">
+
+                  <div class = "col-md-4 col-md-offset-2">
+                    <%= image_tag "Bulgaria.jpg", class:"logo" %>
+                    <a class = "modal-button" href="">Bulgarian</a>
+                  </div>
+                  <div class = "col-md-4">
+                    <%= image_tag "english.jpg", class:"logo" %>
+                    <a class = "modal-button button-en" href="">English</a>
+                  </div>
+
                 </div>
               </div>
             </div>

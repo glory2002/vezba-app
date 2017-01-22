@@ -27,19 +27,18 @@
 }
 
 .main-title {
-  float:left;
-  line-height: 1.1;
-  font-family: 'Kankin';
-  font-size: 50px;
-  margin: 40px 0 0 40px;
+  display: inline-block;
+  line-height: 1.5;
+  font-family: Open Sans;
+  font-size: 25px;
+  margin: 40px 30px;
 }
 
-.sub-title {
-  float: left;
-  font-family: Open sans;
-  font-size: 20px;
-  line-height: 1.5;
-  margin: 10px 0 0 40px;
+.main-title > span {
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: 'Kankin';
+  font-size: 25px;
 }
 
 .button-more {

@@ -55,19 +55,43 @@
 }
 
 .modal-header {
-  padding: 2px 16px;
+  padding: 20px 16px;
   background-color: #5cb85c;
   color: white;
 }
 
+.modal-title {
+  font-family: 'Kankin';
+  font-size: 40px;
+}
+
 .modal-body {
-  padding: 180px 16px;
+  padding-bottom: 80px;
+}
+
+.button-left {
+float: left;
+}
+
+.button-right {
+float: right;
 }
 
 .modal-button {
   padding: 20px 50px;
   background-color: #ea3838;
-  font-size: 20px;
-  margin: 0 20px 0 20px;
+  font-size: 30px;
+  font-family: "Kankin";
+  // margin: 0 20px 0 20px;
   color: white;
+}
+
+.button-en {
+  padding: 20px 68px;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
 }

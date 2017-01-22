@@ -1,15 +1,15 @@
 <div class = "container">
-  <div class="row">
-    <div class="col-md-12 name-single-show"><%= @embroderies.name %></div>
+  <div class="row wrapper">
+    <div class="col-md-6 name-single-show navbar-left"><%= @embroderies.name %></div>
+    <div class = "col-md-6 navbar-right">
+      <%= link_to 'BACK', :back, class: "back-btn btn4" %>
+      <%= link_to 'DELETE', (@embrodery),
+                 method: :delete,
+                 data: { confirm: 'Are you sure?' }, class: "delete-btn btn4" %>
+    </div>
     <div class="row">
       <div class="col-md-12 wrap-show-img">
         <%= image_tag @embroderies.image, class: "img-single-show" %>
-        <div class = "btn-area">
-          <%= link_to 'BACK', :back, class: "back-btn btn4 navbar-left" %>
-          <%= link_to 'DELETE', (@embrodery),
-                     method: :delete,
-                     data: { confirm: 'Are you sure?' }, class: "delete-btn btn4 navbar-right" %>
-        </div>
       </div>
     </div>
   </div>

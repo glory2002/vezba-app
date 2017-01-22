@@ -1,6 +1,6 @@
 .wrap-div {
-  box-shadow: 0 1px 7px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background-color: white;
+  border: 2px solid #ea3838;
   border-radius: 3px;
   margin-top: 30px;
 }
@@ -21,7 +21,6 @@
   background-color: white;
   padding-left: 0px;
   margin: 0% 0% 10% 0%;
-  box-shadow: 0 1px 7px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .div-show {
@@ -50,28 +49,57 @@
   font-size: 25px;
 }
 
+.title-embrodery {
+  border: 2px solid #ea3838;
+}
+
 .reg-name-show {
- font-family: 'Roboto', sans-serif;
- font-weight: bold;
- font-size: 30px;
- color: black;
- margin-top: 38px;
+  text-align: left;
+  font-family: 'Kankin';
+  color: #ea3838;
+  font-size: 30px;
+  margin-top: 38px;
+}
+
+.text-region {
+  font-family: Open Sans;
+  font-size: 16px;
+  text-align: left;
 }
 
 .wrap-show-img {
   margin-bottom: 10%;
 }
 
-.img-single-show {
-  width: 100%;
+
+// BUTTONS
+
+
+.button-add {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 3% 4% 3% 4%;
+  float: left;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: Open Sans;
+  cursor: pointer;
+  border: 1px solid #4CAF50;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
-.name-single-show {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  background-color: #ea3838;
+.btn1 {
+  background-color: #4CAF50;
   color: white;
-  font-size: 30px;
+}
+
+.btn1:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
 }
 
 .button-show {
@@ -100,7 +128,7 @@
   display:none;
 }
 
-.page, .next, .prev {
+  .next, .prev {
   padding: 5px 15px;
   display: inline-block;
   border-radius: 2px;
@@ -110,33 +138,53 @@
   color: #7b8996;
   cursor: pointer;
   text-decoration: none;
+  transition: all 0.2s;
 }
 
-.page.current,
-.page:hover {
+.page.current {
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 2px;
+  font-family: Open Sans;
+  font-size: 20px;
   text-decoration: none;
+  transition: all 0.2s;
+  padding: 5px 15px;
   background: #4caf50;
   color: #fff;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.prev:hover {
+.page > a {
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 2px;
+  background: #DDE3E7;
+  font-family: Open Sans;
+  font-size: 20px;
+  color: #7b8996;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+ }
+
+.page > a:hover {
+  background: #4caf50;
+  color: white;
+  text-decoration: none;
+ }
+
+.next:hover, .prev:hover {
   text-decoration: none;
   background: #4caf50;
   color: white;
 }
-
-.next:hover {
-  text-decoration: none;
-  background: #4caf50;
-  color: white;
-}
-
 
 .pagination > .page > a {
   text-decoration: none;
   color: #7b8996;
 }
-
 
 .pagination > .page > a:hover {
   text-decoration: none;
@@ -144,12 +192,28 @@
   color: white;
 }
 
-// ----
-.btn-area {
-  margin-top: 30px;
-  margin-bottom: 50px;
+// SHOW EMBROIDERY
+
+.wrapper {
+  margin-top: 60px;
+  margin-bottom: 130px;
+  border: 2px solid #ea3838;
+  padding: 60px 40px 0 40px;
 }
+
+.name-single-show {
+  font-family: 'Kankin';
+  color: #ea3838;
+  font-size: 40px;
+  text-align: left;
+}
+
+.navbar-right {
+  margin-right: 0;
+}
+
 .btn4 {
+  float: right;
   border-radius: 2px;
   font-size: 20px;
   color: white;
@@ -164,6 +228,7 @@
 }
 
 .delete-btn {
+  margin-right: 20px;
   background-color: #ea3838;
   border: 1px solid #ea3838;
 }
@@ -180,4 +245,9 @@
   background-color: white;
   color: #ea3838;
   border: 1px solid #ea3838;
+}
+
+.img-single-show {
+  margin-top: 40px;
+  width: 100%;
 }

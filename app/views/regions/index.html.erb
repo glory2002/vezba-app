@@ -4,7 +4,11 @@
       <div class = "col-md-4">
         <div class = "hovereffect">
           <%= link_to (image_tag region.image,  class:"img-responsive-region"), region %>
-          <div class = "overlay"><div class = "inner-overlay"><%= link_to region.name, region,  class:"region-title link-btn" %></div></div>
+          <%= link_to region do %>
+            <div class = "overlay">
+              <p class = "region-title"><%= region.name %></p>
+            </div>
+          <% end %>
         </div>
       </div>
     <% end %>
