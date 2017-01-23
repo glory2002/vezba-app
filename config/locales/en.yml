@@ -25,3 +25,7 @@ en:
     pagination:
       previous: "< Previous"
       next: "Next >"
+    menu:
+      home: "home"
+      about: "about"
+      models: "models"

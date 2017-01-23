@@ -1,0 +1,10 @@
+bg:
+  hello: "Здравей свят!"
+  views:
+    pagination:
+      previous: "< Предишна"
+      next: "Следваща >"
+  menu:
+    home: "начало"
+    about: "за проекта"
+    models: "модели"

@@ -26,9 +26,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="col-md-6">
           <ul class="nav nav-menu-middle">
-            <li><%= link_to "HOME", home_index_path, class: "menu-btn" %></li>
-            <li><%= link_to "ABOUT", home_about_path, class: "menu-btn #{current_page?(home_about_path) ? "current" : nil }" %></li>
-            <li><%= link_to "MODELS", regions_path(:region_id), class: "menu-btn #{current_page?(regions_path(:region_id)) ? "current" : nil }" %></li>
+            <li><%= link_to t("menu.home"), home_index_path, class: "menu-btn" %></li>
+            <li><%= link_to t("menu.about"), home_about_path, class: "menu-btn #{current_page?(home_about_path) ? "current" : nil }" %></li>
+            <li><%= link_to t("menu.models"), regions_path(:region_id), class: "menu-btn #{current_page?(regions_path(:region_id)) ? "current" : nil }" %></li>
             <!-- <li><%= link_to "BLOG", regions_path(:region_id), class: "menu-btn" %></li> -->
             <!-- <li><%= link_to "CONTACTS", regions_path(:region_id), class: "menu-btn" %></li> -->
           </ul>
@@ -43,7 +43,16 @@
               <li><%= link_to "Log out", destroy_user_session_path, class: "button-user btn3", method: :delete %></li>
             <% end %>
             <li><a class = "social-btn" href="https://www.facebook.com/groups/vezba/">f</a></li>
-            <li><a id = "myBtn" class = "social-btn" href="#">en</a></li>
+            <li class="fb-en">
+
+            </li>
+            <li>
+              <%
+                current_locale = I18n.locale
+                toggle_locale  = current_locale == :en ? 'bg' : 'en'
+                current_path   = url_for(params.merge(locale: toggle_locale))
+              %>
+              <%= link_to toggle_locale,   "#{current_path}", id: "myBtn", class: "social-btn" %>
           </ul>
 
             <div id="myModal" class="modal">
@@ -56,11 +65,11 @@
 
                   <div class = "col-md-4 col-md-offset-2">
                     <%= image_tag "Bulgaria.jpg", class:"logo" %>
-                    <a class = "modal-button" href="">Bulgarian</a>
+                    <div class = "modal-button"><%= link_to_unless_current "Bulgarian", locale: "bg" %></div>
                   </div>
                   <div class = "col-md-4">
                     <%= image_tag "english.jpg", class:"logo" %>
-                    <a class = "modal-button button-en" href="">English</a>
+                    <div class = "modal-button button-en"><%= link_to_unless_current "English", locale: "en" %></div>
                   </div>
                 </div>
               </div>
