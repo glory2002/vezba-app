@@ -55,35 +55,32 @@
               <%= link_to toggle_locale,   "#{current_path}", id: "myBtn", class: "social-btn" %>
           </ul>
 
-            <div id="myModal" class="modal">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <span class="close">&times;</span>
-                  <h2 class="modal-title">Choose Language</h2>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 class="modal-title">Choose Language</h2>
+              </div>
+              <div class="row modal-body">
+                <div class = "col-md-4 col-md-offset-2">
+                  <%= image_tag "Bulgaria.jpg", class:"logo" %>
+                  <div class = "modal-button"><%= link_to_unless_current "Bulgarian", locale: "bg" %></div>
                 </div>
-                <div class="row modal-body">
-
-                  <div class = "col-md-4 col-md-offset-2">
-                    <%= image_tag "Bulgaria.jpg", class:"logo" %>
-                    <div class = "modal-button"><%= link_to_unless_current "Bulgarian", locale: "bg" %></div>
-                  </div>
-                  <div class = "col-md-4">
-                    <%= image_tag "english.jpg", class:"logo" %>
-                    <div class = "modal-button button-en"><%= link_to_unless_current "English", locale: "en" %></div>
-                  </div>
+                <div class = "col-md-4">
+                  <%= image_tag "english.jpg", class:"logo" %>
+                  <div class = "modal-button"><%= link_to_unless_current "English", locale: "en" %></div>
                 </div>
               </div>
             </div>
+          </div>
 
         </div>
       </div>
     </nav>
 
-    <!-- <div class = "container"> -->
 
       <%= yield %>
 
-    <!-- </div> -->
 
 <footer class="footer">
   <div class="container-fluid">

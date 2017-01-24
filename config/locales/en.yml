@@ -29,3 +29,5 @@ en:
       home: "home"
       about: "about"
       models: "models"
+    home:
+      html: '<h1 class = "main-title"><span>Bulgarian Embroidery</span> possess the power of the <span>sun</span>, the colors of the <span>earth</span> and the richness of the bulgarian <span>soul.</span></h2>'

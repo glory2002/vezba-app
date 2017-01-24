@@ -78,16 +78,22 @@ float: right;
 }
 
 .modal-button {
-  padding: 20px 50px;
+  text-transform: uppercase;
+  padding: 18px 50px;
   background-color: #ea3838;
   font-size: 30px;
   font-family: "Kankin";
-  // margin: 0 20px 0 20px;
   color: white;
+  border-radius: 2px;
 }
 
-.button-en {
-  padding: 20px 68px;
+.modal-button > a {
+ color: #fc8255;
+ text-decoration: none;
+}
+.modal-button:hover {
+  background-color: #c72222;
+  text-decoration: none;
 }
 
 .logo {

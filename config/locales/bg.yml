@@ -8,3 +8,5 @@ bg:
     home: "начало"
     about: "за проекта"
     models: "модели"
+  home:
+    html: '<h1 class = "main-title"><span>Шевиците</span> притежават силата на <span>слънцето</span>, цветовете не <span>земята</span> и богатството на българската <span>душа.</span></h2>'
