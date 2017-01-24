@@ -70,16 +70,16 @@
 }
 
 .button-left {
-float: left;
+ float: left;
 }
 
 .button-right {
-float: right;
+ float: right;
 }
 
 .modal-button {
+  padding: 18px;
   text-transform: uppercase;
-  padding: 18px 50px;
   background-color: #ea3838;
   font-size: 30px;
   font-family: "Kankin";
@@ -88,9 +88,10 @@ float: right;
 }
 
 .modal-button > a {
- color: #fc8255;
- text-decoration: none;
+  color: #fc8255;
+  text-decoration: none;
 }
+
 .modal-button:hover {
   background-color: #c72222;
   text-decoration: none;

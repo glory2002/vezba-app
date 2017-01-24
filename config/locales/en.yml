@@ -25,9 +25,20 @@ en:
     pagination:
       previous: "< Previous"
       next: "Next >"
-    menu:
-      home: "home"
-      about: "about"
-      models: "models"
-    home:
-      html: '<h1 class = "main-title"><span>Bulgarian Embroidery</span> possess the power of the <span>sun</span>, the colors of the <span>earth</span> and the richness of the bulgarian <span>soul.</span></h2>'
+  menu:
+    home: "home"
+    about: "about"
+    models: "models"
+  home:
+    html: '<h1 class = "main-title"><span>Bulgarian Embroidery</span> possess the power of the <span>sun</span>, the colors of the <span>earth</span> and the richness of the bulgarian <span>soul.</span></h2>'
+  about:
+    html: '
+    <p><span>VEZBA</span> is an idea isnpired of the richness of the Bulgarian Embroidery.
+    This is the first online collection for embroidery models. </p>
+    <h3>About the Bulgarian Embroidery</h3>
+    <p>Bulgarian embroidery in the form that we know it, although it is just a minor part of its entirety, is formed since the time of Avitohol until the reign of Kubrat. </p>
+    <p>In the embroidery the symbols of the Bulgarian runic alphabet, created 2500 – 2600 years ago, are preserved. In the following centuries they retain their form, enriched with new interpretations until the enslavement of the Bulgarians by the Ottomans.</p>
+    <p>Embroideries in the life of Bulgarians from the common people to the kings, have replaced the recorded history of the genus for the common people and have showed their social status, occupation, and position of power. </p>
+    <p>Each Bulgarian embroidery carries a message with a different meaning depending on the location in which it is embroidered on the garment: male and female belts, sleeve or collar.</p>
+    <p>During the First and Second Bulgarian Kingdoms there was a nobleman who was responsible for embroideries and for their innovations. On our ancestors clothes it was not possible to have just any beautiful embroideries. Even the type of stitches used on any embroidery had its own distinct meaning. </p>
+    <p>Source: Alena</p>'
